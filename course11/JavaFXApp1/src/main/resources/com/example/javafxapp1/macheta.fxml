@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxapp1.HelloController">
+    <children>
+        <Label layoutX="74.0" layoutY="73.0" text="Nume student:" />
+        <TextField fx:id="tfNume" layoutX="226.0" layoutY="69.0" />
+        <Label layoutX="74.0" layoutY="136.0" text="Varsta student:" />
+        <TextField fx:id="tfVarsta" layoutX="226.0" layoutY="132.0" />
+        <Label layoutX="81.0" layoutY="200.0" text="Sex:" />
+        <ComboBox fx:id="cbSex" layoutX="226.0" layoutY="188.0" prefWidth="150.0" />
+        <Label layoutX="81.0" layoutY="258.0" text="Program studiu:" />
+        <ChoiceBox fx:id="choiceProgram" layoutX="226.0" layoutY="254.0" prefWidth="150.0" />
+        <Button fx:id="btnAdauga" layoutX="226.0" layoutY="317.0" mnemonicParsing="false" text="Adauga student" />
+    </children>
+</AnchorPane>
